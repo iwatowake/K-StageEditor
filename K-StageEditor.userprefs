@@ -1,6 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Layer.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CheckBox_LayerSelect.cs" Line="8" Column="38" />
+      <File FileName="Assets\Scripts\LayerManager.cs" Line="38" Column="39" />
+      <File FileName="Assets\Scripts\Layer.cs" Line="65" Column="1" />
+      <File FileName="Assets\Scripts\LayerBase.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Tile.cs" Line="11" Column="47" />
+      <File FileName="Assets\Scripts\Defines.cs" Line="18" Column="14" />
+      <File FileName="Assets\Scripts\VCButtonFuncs.cs" Line="17" Column="29" />
+      <File FileName="Assets\Scripts\CheckBox_TileSelect.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraScript.cs" Line="28" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
