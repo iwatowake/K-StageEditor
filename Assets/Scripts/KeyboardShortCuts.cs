@@ -1,29 +1,36 @@
 using UnityEngine;
 using System.Collections;
 
-public class KeyboardShortCuts : MonoBehaviour {
-
+public class KeyboardShortCuts : SingletonMonoBehaviour<KeyboardShortCuts> {
+	
+	public bool	mCanUse = true;
+	
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.S)){
-			LayerManager.Instance.RotateLayer_Left();
-		}
-		if(Input.GetKeyDown(KeyCode.F)){
-			LayerManager.Instance.RotateLayer_Right();
-		}
-		if(Input.GetKeyDown(KeyCode.E)){
-			LayerManager.Instance.ChangeVisibleShortcut();
-		}
-		
-		TileShortcut();
-		
-		LayerShortcut();
-		
-		if(Input.GetKeyDown(KeyCode.Delete)){
-			if(LayerManager.Instance.CurrentLayer == 0){
-				LayerManager.Instance.ClearMainLayer();
-			}else{
-				LayerManager.Instance.ClearLayer();
+		if(mCanUse){
+			if(Input.GetKeyDown(KeyCode.S)){
+				LayerManager.Instance.RotateLayer_Left();
 			}
+			if(Input.GetKeyDown(KeyCode.F)){
+				LayerManager.Instance.RotateLayer_Right();
+			}
+			if(Input.GetKeyDown(KeyCode.E)){
+				LayerManager.Instance.ChangeVisibleShortcut();
+			}
+			
+			
+			TileShortcut();
+			
+			LayerShortcut();
+			
+			/*
+			if(Input.GetKeyDown(KeyCode.Delete)){
+				if(LayerManager.Instance.CurrentLayer == 0){
+					LayerManager.Instance.ClearMainLayer();
+				}else{
+					LayerManager.Instance.ClearLayer();
+				}
+			}
+			*/
 		}
 	}
 	

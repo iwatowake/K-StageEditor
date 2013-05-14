@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Boomlagoon\JSON\JSONObject.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -171,9 +172,12 @@
      <Compile Include="Assets\Scripts\Layer.cs" />
      <Compile Include="Assets\Scripts\LayerBase.cs" />
      <Compile Include="Assets\Scripts\LayerManager.cs" />
+     <Compile Include="Assets\Scripts\List_AreaSelect.cs" />
+     <Compile Include="Assets\Scripts\Save.cs" />
      <Compile Include="Assets\Scripts\Selectables.cs" />
      <Compile Include="Assets\Scripts\Shortcut_LayerCheckBox.cs" />
      <Compile Include="Assets\Scripts\Shortcut_TileCheckBox.cs" />
+     <Compile Include="Assets\Scripts\StageNameInput.cs" />
      <Compile Include="Assets\Scripts\Tile.cs" />
      <Compile Include="Assets\Scripts\Utilities\Base\SingletonMonoBehaviour.cs" />
      <Compile Include="Assets\Scripts\Utilities\Extends\MonoBehaviour_Extends.cs" />
@@ -182,7 +186,6 @@
      <Compile Include="Assets\Scripts\Utilities\Extension\TransformExtension.cs" />
      <Compile Include="Assets\Scripts\VCButtonFuncs.cs" />
      <Compile Include="Assets\Scripts\ViewCheckBox.cs" />
-     <Compile Include="Assets\TimeScaleController\TimeScaleController.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
@@ -191,9 +194,11 @@
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Boomlagoon\JSON\Readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\StageData\ava.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
      <None Include="Assets\NGUI\ReadMe - 2.2.7c.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
@@ -202,6 +207,7 @@
      <None Include="Assets\NGUI\Examples\Other\English.txt" />
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\teststage.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (HardClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
