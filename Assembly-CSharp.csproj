@@ -173,6 +173,7 @@
      <Compile Include="Assets\Scripts\LayerBase.cs" />
      <Compile Include="Assets\Scripts\LayerManager.cs" />
      <Compile Include="Assets\Scripts\List_AreaSelect.cs" />
+     <Compile Include="Assets\Scripts\Load.cs" />
      <Compile Include="Assets\Scripts\Save.cs" />
      <Compile Include="Assets\Scripts\Selectables.cs" />
      <Compile Include="Assets\Scripts\Shortcut_LayerCheckBox.cs" />
@@ -208,6 +209,7 @@
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
      <None Include="Assets\teststage.txt" />
+     <None Include="Assets\StageData\example\example.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (HardClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />

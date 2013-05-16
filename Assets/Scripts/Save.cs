@@ -44,12 +44,11 @@ public class Save : MonoBehaviour {
 			
 			
 			FileInfo fi = new FileInfo(Application.dataPath + "/StageData/" + stagename + "/" + stagename + ".txt");
-			
-			StreamWriter sw = fi.AppendText();
+
+			StreamWriter sw = fi.CreateText();
 			sw.WriteLine(json.ToString());
 			sw.Flush();
 			sw.Close();
 		}
 	}
-	
 }
