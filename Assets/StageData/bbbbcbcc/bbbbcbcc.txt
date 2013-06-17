@@ -1,0 +1,1 @@
+{"mainroom":{"player":{"x":0,"y":0},"goal":{"x":9,"y":0},"block":[],"circuit":[],"lamp":[],"gen":[]},"layer":[],"name":"bbbbcbcc","area":4,"criticalpath":4}

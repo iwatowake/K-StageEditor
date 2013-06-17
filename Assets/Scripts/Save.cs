@@ -6,6 +6,7 @@ using System.IO;
 public class Save : MonoBehaviour {
 	
 	public	UIInput		mInput		= null;
+	public	UIInput		mCriticalPathInput = null;
 	public	UIPopupList	mPopList	= null;
 	
 	void OnClick(){
@@ -20,6 +21,7 @@ public class Save : MonoBehaviour {
 			
 			string area			= mPopList.selection;
 			string stagename	= mInput.text;
+			int	   criticalPath = int.Parse(mCriticalPathInput.text);
 			
 			Directory.CreateDirectory(Application.dataPath + "/StageData/" + stagename);
 			
@@ -42,6 +44,7 @@ public class Save : MonoBehaviour {
 				break;
 			}
 			
+			json.Add("criticalpath", criticalPath);
 			
 			FileInfo fi = new FileInfo(Application.dataPath + "/StageData/" + stagename + "/" + stagename + ".txt");
 

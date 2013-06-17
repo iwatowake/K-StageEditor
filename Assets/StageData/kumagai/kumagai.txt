@@ -1,0 +1,1 @@
+{"mainroom":{"block":[],"circuit":[{"type":1,"dir":0,"pos":{"x":4,"y":3}},{"type":1,"dir":0,"pos":{"x":2,"y":4}},{"type":1,"dir":0,"pos":{"x":3,"y":4}},{"type":1,"dir":0,"pos":{"x":2,"y":5}},{"type":1,"dir":0,"pos":{"x":2,"y":6}}],"lamp":[],"gen":[]},"layer":[],"name":"kumagai","area":4,"criticalpath":4}
